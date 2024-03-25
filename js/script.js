@@ -14,7 +14,7 @@ age = parseInt(age); //Number
 console.log(age, typeof age)
 
 //PARTE LOGICA
-//Dichiaro la variabile (Se meti 'const' non la puoi cambiare e fare i calcoli e serve per forza 'let')
+//Dichiaro la variabile (Se metti 'const' non la puoi cambiare e fare i calcoli e serve per forza 'let')
 let ticket;
 let discount;
 
@@ -33,7 +33,7 @@ if (age < 18) {
 console.log(ticket)
 
 // Limita il risultato a due cifre decimali
-let ticket1 = ticket.toFixed(2);
+let ticket1 = ticket.toFixed(2); //String
 console.log(ticket1)
 
 // OUTPUT
