@@ -28,9 +28,13 @@ if (age < 17) {
 
 console.log(ticket)
 
+// Limita il risultato a due cifre decimali
+let ticket1 = ticket.toFixed(2);
+console.log(ticket1)
+
 // OUTPUT
 // Preparo il messaggio
-const resultMessage = `Il Biglietto costa: ${ticket} €`;
+const resultMessage = `Il Biglietto costa: ${ticket1} €`;
 
 // Stampo il risultato della somma in pagina
 document.getElementById("result").innerHTML = resultMessage;

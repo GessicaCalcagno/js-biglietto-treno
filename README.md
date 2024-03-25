@@ -23,9 +23,7 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 - [x] - se over 65 (0.21 * km) - (0.21 * km * 0.4)= Prezzo finale
 
 Bonus:
-- [] Il risultato deve essere in decimali
-
-
+- [x] Il risultato deve essere in decimali
 
 5. OUTPUT
 Stampiamo: risultato
