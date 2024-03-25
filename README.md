@@ -10,17 +10,21 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 1. Chiediamo all'utente il numero di km che deve percorrere e la sua età.
 2. Calcolare il prezzo del biglietto ed aggiungiamo lo sconto dov'è necessario.
 
-3. INPUT
-[] Chiediamo all'utente quanti km deve fare
-[] Chiediamo all'utente la sua età
+3. INPUT:
+- [x] Chiediamo all'utente quanti km deve fare
+- [x] Chiediamo all'utente la sua età
 
 
 4. ESECUZIONE LOGICA:
-[] Calcoliamo il prezzo del biglietto.
+- [x] Calcoliamo il prezzo del biglietto.
 - Dichiariamo una variabile per il risultato:
-[] -se minorenne (0.21 * km * 0.2) + (prezzo tot - lo sconto)= Prezzo finale
-[] -se maggiorenne (0.21 * km )= Prezzo finale
-[] -se over 65 (0.21 * km * 0.4) + (prezzo tot - lo sconto)= Prezzo finale
+- [x] - se minorenne (0.21 * km) - (0.21 * km * 0.2)= Prezzo finale
+- [x] - se maggiorenne (0.21 * km )= Prezzo finale
+- [x] - se over 65 (0.21 * km) - (0.21 * km * 0.4)= Prezzo finale
+
+Bonus:
+- [] Il risultato deve essere in decimali
+
 
 
 5. OUTPUT
