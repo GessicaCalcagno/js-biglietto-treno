@@ -5,6 +5,7 @@
 //Chiediamo all'utente quanti km deve fare
 
 let kiloMetri = prompt("Ciao! Quanti km devi percorrere?"); //String | null
+//let kiloMetri = parseInt(prompt("Ciao! Quanti km devi percorrere?"));--> potevo scrivere anche così.
 kiloMetri = parseInt(kiloMetri); //Number
 console.log(kiloMetri, typeof kiloMetri)
 
@@ -15,9 +16,11 @@ console.log(age, typeof age)
 
 //PARTE LOGICA
 //Dichiaro la variabile (Se metti 'const' non la puoi cambiare e fare i calcoli e serve per forza 'let')
+//Scope globale
 let ticket;
 let discount;
 
+//Scope di blocco
 //Calcolo il prezzo del biglietto + aggiungo lo sconto in base all'età
 if (age < 18) {
     ticket = (0.21 * kiloMetri) - (0.21 * kiloMetri * 0.2);
@@ -31,6 +34,7 @@ if (age < 18) {
 }
 
 console.log(ticket)
+console.log(discount)
 
 // Limita il risultato a due cifre decimali
 let ticket1 = ticket.toFixed(2); //String
